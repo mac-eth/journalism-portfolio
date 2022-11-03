@@ -33,19 +33,19 @@ export default function Example() {
                   <div className="flex space-x-4">
                     <a
                       href="#"
-                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-darkcream hover:text-gray-800"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-darkcream hover:text-gray-700"
                     >
                       Home
                     </a>
                     <a
                       href="#"
-                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-darkcream hover:text-gray-800"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-darkcream hover:text-gray-700"
                     >
                       Portfolio
                     </a>
                     <a
                       href="#"
-                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-darkcream hover:text-gray-800"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-darkcream hover:text-gray-700"
                     >
                       Resume
                     </a>
@@ -60,14 +60,14 @@ export default function Example() {
                   <div className="relative">
                     <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                       <MagnifyingGlassIcon
-                        className="h-5 w-5 text-gray-800"
+                        className="h-5 w-5 text-gray-700"
                         aria-hidden="true"
                       />
                     </div>
                     <input
                       id="search"
                       name="search"
-                      className="block w-full rounded-md border border-transparent bg-darkcream py-2 pl-10 pr-3 leading-5 text-gray-800 placeholder-gray-800 focus:border-gray-800 focus:bg-darkcream focus:text-gray-800 focus:outline-none focus:ring-gray-800 sm:text-sm"
+                      className="block w-full rounded-md border border-transparent bg-darkcream py-2 pl-10 pr-3 leading-5 text-gray-700 placeholder-gray-700 focus:border-darkcream focus:bg-darkcream focus:text-gray-700 focus:outline-none focus:ring-darkcream sm:text-sm"
                       placeholder="Search"
                       type="search"
                     />
@@ -76,7 +76,7 @@ export default function Example() {
               </div>
               <div className="flex lg:hidden">
                 {/* START - MOBILE DEVICES */}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-800 hover:bg-darkcream focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-800">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-darkcream focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-700">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -96,21 +96,21 @@ export default function Example() {
               <Disclosure.Button
                 as="a"
                 href="#"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-darkcream"
+                className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-darkcream"
               >
                 Home
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="#"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-darkcream"
+                className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-darkcream"
               >
                 Resume
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="#"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-darkcream"
+                className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-darkcream"
               >
                 Portfolio
               </Disclosure.Button>
